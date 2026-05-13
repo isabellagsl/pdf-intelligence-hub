@@ -1,0 +1,21 @@
+[project]
+name = "pdf-intelligence-hub"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Isabella",email = "isabellagsoftware@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "pymupdf (>=1.27.2.3,<2.0.0.0)",
+    "pdfplumber (>=0.11.9,<0.12.0)",
+    "loguru (>=0.7.3,<0.8.0)",
+    "pydantic (>=2.13.4,<3.0.0)",
+    "langdetect (>=1.0.9,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

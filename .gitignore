@@ -1,0 +1,30 @@
+# Antigravity
+.antigravity/
+antigravity.project
+*.agstate
+*.workspace
+.history/
+.project_settings/
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+
+# Project Data
+data/
+logs/
+output/
+*.pdf
+*.json
+*.csv
+
+# System Files
+.DS_Store
+Thumbs.db
