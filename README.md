@@ -43,7 +43,7 @@ cd pdf-intelligence-hub
 poetry install
 
 # Execute o pipeline passando o caminho do PDF
-poetry run python -m src.main data/sample.pdf
+poetry run python -m src.main data/arquivo-exemplo.pdf
 ```
 
 ## Autora
